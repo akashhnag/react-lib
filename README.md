@@ -15,12 +15,12 @@ npm install --save color-heading
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'color-heading'
+import {ColorHeadingOne} from 'color-heading'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <ColorHeadingOne text='Enter your text here' color={'red'} />
     )
   }
 }
